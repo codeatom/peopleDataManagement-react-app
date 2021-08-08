@@ -71,7 +71,7 @@ export async function createPerson(person) {
 }
 
 
-//Properties must match createPerson
+//Properties must match createCountry
 export async function createCountry(country) {
   console.log("Api create", country);
   try {
@@ -87,7 +87,7 @@ export async function createCountry(country) {
 }
 
 
-//Properties must match createPerson
+//Properties must match createCity
 export async function createCity(city) {
   console.log("Api create", city);
   try {
